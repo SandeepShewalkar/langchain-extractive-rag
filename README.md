@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ```
 2. Install Ollama
 
-https://ollama.com
+    https://ollama.com
 
 3. Pull required models
 
