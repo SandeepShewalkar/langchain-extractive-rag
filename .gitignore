@@ -1,0 +1,7 @@
+
+---
+```gitignore
+__pycache__/
+chroma_langchain_db/
+.env
+.vscode/
