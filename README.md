@@ -49,32 +49,35 @@ Exact text output
 
 ## ⚙️ Setup Instructions
 
-### 1. Install Python dependencies
-```bash
+1. Install Python dependencies
 
+```bash
 python3 -m venv ragenv
 
 source  ragenv/bin/activate
 
 pip install -r requirements.txt
-
+```
 2. Install Ollama
 
 https://ollama.com
 
 3. Pull required models
 
+```bash
 ollama pull llama3
 ollama pull mxbai-embed-large
+```
 
 4. Place/replace your PDF and modify the PDF_PATH in main.py
 
 5. Run the application
 
+```bash
 python main.py
+```
 
-
-6. Limitations
+## ❗Limitations
 
 If text spans multiple chunks, partial answers may appear
 
@@ -82,7 +85,7 @@ OCR-scanned PDFs may not work correctly
 
 No reasoning or summarization (by design)
 
-7. Use Cases
+## 📌 Use Cases
 
 Employee handbooks
 Legal policies
@@ -91,7 +94,7 @@ Audit & governance systems
 HR knowledge bases
 
 
-8. Example
+## ⭐ Example
 
 Enter your search text (or type 'exit'): What do we mean by most likely?
 
