@@ -95,7 +95,7 @@ HR knowledge bases
 
 
 ## ⭐ Example
-
+```bash
 Enter your search text (or type 'exit'): What do we mean by most likely?
 
 The “most likely” completion is learned by experiencing examples of real 
@@ -105,3 +105,4 @@ text, which it attempts to complete (like fill in the _GAP_)
 When it is wrong, it is penalised, and its internal state is updated to reflect that
 This continues until it is really good at predicting real text
 
+```
